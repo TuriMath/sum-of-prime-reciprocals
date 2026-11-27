@@ -1,0 +1,14 @@
+{
+  "slug": "SumOfPrimeReciprocalsDiverges",
+  "issue": "TuriMath/sum-of-prime-reciprocals#1",
+  "tier": 1,
+  "source": "Euler (1737); Hardy & Wright, Thm 19; Freek 100",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["Nat.Primes.summable_iff_summable_ite", "Summable.nat_tsum_vanishing", "Nat.roughNumbersUpTo_card_le", "Nat.smoothNumbersUpTo_card_le", "Nat.smoothNumbersUpTo_card_add_roughNumbersUpTo_card", "Finset.tsum_subtype", "Nat.primesBelow"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Erdős counting argument re-derived from Mathlib's smooth/rough number counting lemmas; does not cite not_summable_one_div_on_primes or Nat.Primes.not_summable_one_div. The structure follows Mathlib's own proof of that theorem. Only difficulty: tail-vanishing gives a tsum over a subtype, converted to a finset sum via Finset.tsum_subtype."
+}
