@@ -1,1 +1,4 @@
 # sha256  path. Statements locked after their A<->B PR merged. Lines are only ever added (scripts/gate.py, check 6).
+a065d1d90207f19680b40604c71336047d08aa565f685fb6183c375a4b9d97db  Theorems/SumOfPrimeReciprocalsDiverges/A.lean
+af0534489cc19f54cc9f0db0327bfbc805faf282571fc5837cfb1aae395edbb5  Theorems/SumOfPrimeReciprocalsDiverges/B.lean
+049d731941e07ec9b413b82397a2b43d13e92be331d7e273de94df9a33987576  Theorems/SumOfPrimeReciprocalsDiverges/Equiv.lean
