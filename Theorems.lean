@@ -2,3 +2,4 @@
 import Theorems.SumOfPrimeReciprocalsDiverges.A
 import Theorems.SumOfPrimeReciprocalsDiverges.B
 import Theorems.SumOfPrimeReciprocalsDiverges.Equiv
+import Theorems.SumOfPrimeReciprocalsDiverges.Proof
